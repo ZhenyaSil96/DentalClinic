@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 255, 149);
+    padding-top: 40px;
+    width: 100%;
+
+
+  }
+
+  .item a{
+      color: gray;
+      text-decoration: none;
+      padding: 20px;
+  }
+
+  a:hover{
+      color: darkblue;
+  }
+ a.active{
+      color: gold;
+  }
