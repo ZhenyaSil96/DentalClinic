@@ -1,0 +1,30 @@
+/* .container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.container h2{
+    text-align: center;
+} */
+
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.person1{
+    /* padding-right: 10px;
+    padding-bottom: 10px; */
+}
+.person1 h2{
+    text-align: center;
+}
+.person1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 50%;
+}

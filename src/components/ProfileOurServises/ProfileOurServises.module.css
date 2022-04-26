@@ -1,0 +1,85 @@
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.diagn{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.diagn h2{
+    text-align: center;
+}
+.diagn img {
+    width: 100%;
+}
+.lik{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.lik h2{
+    text-align: center;
+}
+.lik img {
+    width: 100%;
+}
+.prot{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.prot h2{
+    text-align: center;
+}
+.prot img{
+    width: 100%;
+}
+.implant{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.implant h2{
+    text-align: center;
+}
+.implant img{
+    width: 100%;
+}
+.vidal{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.vidal h2{
+    text-align: center;
+}
+.vidal img{
+    width: 100%;
+}
+.vuriv{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.vuriv h2{
+    text-align: center;
+}
+.vuriv img{
+    width: 100%;
+}
+.estet{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.estet h2{
+    text-align: center;
+}
+.estet img{
+    width: 100%;
+}
+.ditach{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.ditach h2{
+    text-align: center;
+}
+.ditach img{
+    width: 100%;
+}

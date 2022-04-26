@@ -1,0 +1,47 @@
+.infoOne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.mainContent h2 {
+    color: white;
+}
+.infoOne h2{
+    padding-left: 20px;
+}
+.contentOne h3{
+    color: white;
+}
+.contentThree h3{
+    color: white;
+}
+
+.contentFour h3{
+    color: white;
+}
+
+.contentFive h3{
+    color: white
+}
+
+.contentSix h3 {
+    color: white;
+}
+
+.contentEight h3{
+    color: white;
+}
+/* .container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.container h2{
+    text-align: center;
+} */

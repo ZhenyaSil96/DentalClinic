@@ -1,8 +1,18 @@
 .header{
- display: flex;
- flex-direction: row;
+ padding: 10px;
   }
-  
+  .header .twoBlocks{
+      display: flex;
+      justify-content: space-between;
+  }
  .header img{
 width: 300px;
+padding-left: 15px;
+ }
+ .container{
+     width: 1170px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 15px;
+     padding-right: 15px;
  }

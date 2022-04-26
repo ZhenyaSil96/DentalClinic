@@ -4,9 +4,17 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    background: #f5f5f5;
     
 }
 .container h2{
     text-align: center;
+}
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+.mainContent h2{
+    color: white;
 }

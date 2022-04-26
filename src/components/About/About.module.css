@@ -1,0 +1,62 @@
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.container h2{
+    text-align: center;
+}
+.mainContent{
+
+}
+
+.mainContent h1 {
+    text-align: center;
+}
+
+.blockContent{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: gray; */
+}
+.blockOne{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    text-align: center;
+
+}
+.blockTwo{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    text-align: center;
+}
+.blockThree{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    text-align: center;
+}
+
+.blockFour{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    text-align: center;
+}
+
+.contentPhoto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contentPhoto img {
+    width: 400px;
+}
+.person1{
+    margin: 2px;
+}

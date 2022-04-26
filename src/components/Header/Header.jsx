@@ -5,9 +5,14 @@ import Navbar from "../Navbar/Navbar";
 const Header = () => {
     return (
         <header className={classes.header}>
-            <img src={photo1} />
-            <Navbar/>
-
+            <div className={classes.container}>
+            <div className={classes.twoBlocks}>
+            <div className={classes.headerlogo}>
+                        <img src={photo1} />
+                    </div>
+                    <Navbar />
+                </div>
+            </div>
         </header>
     )
 }

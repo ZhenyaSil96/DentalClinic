@@ -1,0 +1,127 @@
+
+.mainContent{
+    display: flex;
+    width: 1170px;
+    height: 390px;
+    /* position: relative; */
+    /* justify-content: center; */
+    /* z-index: 1; */
+}
+.infoOne{
+    text-align: center;
+    margin-right: 5px;
+}
+.infoOne h3{
+    color: white;
+}
+.infoOneContentOne{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.infoOneContentOne img {
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.infoOneContentTwo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.infoOneContentTwo img {
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.infoOneContentThree{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.infoOneContentThree img {
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.infoOneContentFour{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.infoOneContentFour img {
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.infoOneContentFive{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.infoOneContentFive img {
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.infoOneContentSix{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.infoOneContentSix img {
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.infoTwo{
+    margin-left: 5px;
+    text-align: center;
+}
+
+.infoTwo h2{
+   color: white;
+   margin-top: 40px;
+}
+.infoTwo h3{
+    color: white;
+    margin-top: 40px;
+}
+.infoTwoContentOne{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.infoTwoContentTwo{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.infoTwoContentThree{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.infoTwoContentFour{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}

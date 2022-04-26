@@ -1,22 +1,81 @@
-.nav{
+ .nav{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(0, 255, 149);
-    padding-top: 40px;
-    width: 100%;
-
-
-  }
-
-  .item a{
+    padding-top: 50px;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    list-style-type: none;
+  } 
+  /* .item a{
       color: gray;
       text-decoration: none;
-      padding: 20px;
-  }
-
-  a:hover{
-      color: darkblue;
+      border: 2px solid rgb(4, 155, 54);
+      padding: 10px;
+      border-radius: 25px;
   }
  a.active{
-      color: gold;
+      color: rgb(4, 155, 54);
+  } */
+
+  .item{
+    --c: rgb(29, 161, 60);
+    color: black;
+    font-size: 14px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 170px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    text-decoration: none;
   }
+
+  .item  span{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+    
+  }
+
+  .item:hover {
+    text-color: black;
+}
+
+.item:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.item span:nth-child(1) {
+    --n: 1;
+}
+
+.item span:nth-child(2) {
+    --n: 2;
+}
+
+.item span:nth-child(3) {
+    --n: 3;
+}
+
+.item span:nth-child(4) {
+    --n: 4;
+}
+
+  
